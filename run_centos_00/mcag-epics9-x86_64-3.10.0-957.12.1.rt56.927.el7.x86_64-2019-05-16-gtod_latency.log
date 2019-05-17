@@ -1,0 +1,23 @@
+--- Running testcase gtod_latency  ---
+Thu May 16 11:23:12 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-gtod_latency.log
+
+----------------------
+Gettimeofday() Latency
+----------------------
+Iterations: 10000000
+
+Min: 12 ns
+Max: 31089 ns
+Avg: 16.2746 ns
+StdDev: 118.8505 ns
+Quantiles:
+99.0% < 16
+99.9% < 144
+99.99% < 357
+99.999% < 22705
+99.9999% < 23007
+99.99999% < 31089
+
+Thu May 16 11:23:15 CEST 2019
+The gtod_latency test appears to have completed.

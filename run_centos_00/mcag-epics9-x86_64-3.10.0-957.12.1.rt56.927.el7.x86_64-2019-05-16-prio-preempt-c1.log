@@ -1,0 +1,37 @@
+--- Running testcase prio-preempt -c 1  ---
+Thu May 16 11:41:39 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-prio-preempt-c1.log
+Maximum busy thread count(8), should not exceed number of cpus(8)
+Using 8
+
+-------------------
+Priority Preemption
+-------------------
+
+Busy Threads: 8
+Interrupter Threads: Disabled
+Worker Threads: 27
+
+Busy Thread 8(81): Running...
+Busy Thread 7(81): Running...
+Busy Thread 5(81): Running...
+Busy Thread 4(81): Running...
+Busy Thread 6(81): Running...
+Busy Thread 3(81): Running...
+Busy Thread 2(81): Running...
+Busy threads created!
+Worker threads created
+Signaling first thread
+Busy Thread 3(81): Exiting
+Busy Thread 2(81): Exiting
+Busy Thread 8(81): Exiting
+
+Criteria: All threads appropriately preempted within 1 loop(s)
+Result: PASS
+Busy Thread 6(81): Exiting
+Busy Thread 7(81): Exiting
+Busy Thread 5(81): Exiting
+Busy Thread 4(81): Exiting
+
+Thu May 16 11:41:39 CEST 2019
+The prio-preempt test appears to have completed.

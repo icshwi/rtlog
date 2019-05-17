@@ -1,0 +1,7 @@
+Logging to: 
+/home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-pthread_cond_many.log 
+and to local individual .out files 
+pthread_cond_many configuration:
+number of threads = 5000 
+number of iterations = 400 
+number of processes = 5 

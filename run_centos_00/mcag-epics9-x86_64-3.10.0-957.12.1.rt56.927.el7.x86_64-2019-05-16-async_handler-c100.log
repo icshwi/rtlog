@@ -1,0 +1,22 @@
+--- Running testcase async_handler -c 100  ---
+Thu May 16 11:22:45 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-async_handler-c100.log
+
+-----------------------------------
+Asynchronous Event Handling Latency
+-----------------------------------
+
+Running 1000000 iterations
+recording statistics...
+Min: 1 us
+handler thread exiting
+Max: 82 us
+Avg: 3.3595 us
+StdDev: 4.0579 us
+signal thread exiting
+
+Criteria: latencies < 100
+Result: PASS
+
+Thu May 16 11:23:12 CEST 2019
+The async_handler test appears to have completed.

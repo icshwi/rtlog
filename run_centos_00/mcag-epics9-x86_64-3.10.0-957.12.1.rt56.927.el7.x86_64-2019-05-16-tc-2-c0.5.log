@@ -1,0 +1,19 @@
+--- Running testcase tc-2 -c 0.5  ---
+Thu May 16 11:43:23 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-tc-2-c0.5.log
+
+5 sleeper threads created
+
+2 worker threads created
+
+Please wait...
+
+Process: 0.0028 s
+Threads: 0.0004 s
+Delta:   0.0024 s
+
+Criteria: Delta < 0.5000 s
+Result: PASS
+
+Thu May 16 11:43:28 CEST 2019
+The tc-2 test appears to have completed.

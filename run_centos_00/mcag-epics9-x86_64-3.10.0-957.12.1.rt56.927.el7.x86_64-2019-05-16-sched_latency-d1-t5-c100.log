@@ -1,0 +1,28 @@
+--- Running testcase sched_latency -d 1 -t 5 -c 100  ---
+Thu May 16 11:42:32 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-sched_latency-d1-t5-c100.log
+-------------------------------
+Scheduling Latency
+-------------------------------
+
+Running 10000 iterations with a period of 5 ms
+Periodic load duration: 1 ms
+Expected running time: 50 s
+
+
+Start:    9 us: PASS
+Min:      4 us: PASS
+Max:     84 us: PASS
+Avg:      4 us: PASS
+StdDev: 1.1318 us
+Quantiles:
+99.0% < 4
+99.9% < 5
+99.99% < 84
+Failed Iterations: 0
+
+Criteria: latencies < 100 us
+Result: PASS
+
+Thu May 16 11:43:23 CEST 2019
+The sched_latency test appears to have completed.

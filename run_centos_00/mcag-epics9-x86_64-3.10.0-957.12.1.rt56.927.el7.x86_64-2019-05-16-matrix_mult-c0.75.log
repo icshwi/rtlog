@@ -1,0 +1,35 @@
+--- Running testcase matrix_mult -c 0.75  ---
+Thu May 16 11:23:15 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-matrix_mult-c0.75.log
+
+---------------------------------------
+Matrix Multiplication (SMP Performance)
+---------------------------------------
+
+Running 128 iterations
+Matrix Dimensions: 100x100
+Calculations per iteration: 8
+Number of CPUs: 8
+
+Running sequential operations
+Min: 152 us
+Max: 243 us
+Avg: 160.0000 us
+StdDev: 15.7335 us
+
+Running concurrent operations
+Min: 220 us
+Max: 310 us
+Avg: 31.0000 us
+StdDev: 25.3722 us
+
+Concurrent Multipliers:
+Min: 0.6909
+Max: 0.7839
+Avg: 5.1613
+
+Criteria: 6.00 * average concurrent time < average sequential time
+Result: FAIL
+
+Thu May 16 11:23:15 CEST 2019
+The matrix_mult test appears to have completed.

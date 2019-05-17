@@ -1,0 +1,183 @@
+--- Running testcase periodic_cpu_load  ---
+Thu May 16 11:23:15 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-periodic_cpu_load.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 6000 iterations per thread
+Thread Group A:
+  threads: 4
+  priority: 63
+  period: 40 ms
+Thread Group B:
+  threads: 4
+  priority: 53
+  period: 80 ms
+Thread Group C:
+  threads: 4
+  priority: 43
+  period: 160 ms
+
+TID 2 (A - prio 63) complete
+TID 1 (A - prio 63) complete
+TID 0 (A - prio 63) complete
+TID 3 (A - prio 63) complete
+TID 6 (B - prio 53) complete
+TID 4 (B - prio 53) complete
+TID 5 (B - prio 53) complete
+TID 7 (B - prio 53) complete
+TID 9 (C - prio 43) complete
+TID 8 (C - prio 43) complete
+TID 11 (C - prio 43) complete
+TID 10 (C - prio 43) complete
+
+Execution Time Statistics:
+
+TID 0 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 0 did not miss a period
+Result: PASS
+
+TID 1 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 1 did not miss a period
+Result: PASS
+
+TID 2 (A)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 2 did not miss a period
+Result: PASS
+
+TID 3 (A)
+  Min: 0 us
+  Max: 14 us
+  Avg: 0.007000 us
+  StdDev: 0.312979 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 3 did not miss a period
+Result: PASS
+
+TID 4 (B)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 4 did not miss a period
+Result: PASS
+
+TID 5 (B)
+  Min: 0 us
+  Max: 13 us
+  Avg: 0.002167 us
+  StdDev: 0.167805 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 5 did not miss a period
+Result: PASS
+
+TID 6 (B)
+  Min: 0 us
+  Max: 13 us
+  Avg: 0.008667 us
+  StdDev: 0.335544 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 6 did not miss a period
+Result: PASS
+
+TID 7 (B)
+  Min: 0 us
+  Max: 13 us
+  Avg: 0.004333 us
+  StdDev: 0.237323 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 7 did not miss a period
+Result: PASS
+
+TID 8 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 8 did not miss a period
+Result: PASS
+
+TID 9 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 9 did not miss a period
+Result: PASS
+
+TID 10 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 10 did not miss a period
+Result: PASS
+
+TID 11 (C)
+  Min: 0 us
+  Max: 0 us
+  Avg: 0.000000 us
+  StdDev: 0.000000 us
+
+  Quantiles:
+99.0% < 0
+99.9% < 0
+Criteria: TID 11 did not miss a period
+Result: PASS
+
+
+Thu May 16 11:39:15 CEST 2019
+The periodic_cpu_load test appears to have completed.

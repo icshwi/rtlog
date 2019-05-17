@@ -1,0 +1,33 @@
+--- Running testcase prio-wake  ---
+Thu May 16 11:41:39 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-prio-wake.log
+000000: 00000094 us: RealtimeThread-23861712 pri 004 started
+000001: 00000117 us: RealtimeThread-23863280 pri 006 started
+000002: 00000118 us: RealtimeThread-23860928 pri 003 started
+000003: 00000127 us: RealtimeThread-23864064 pri 007 started
+000004: 00000141 us: RealtimeThread-23864848 pri 008 started
+000005: 00000102 us: RealtimeThread-23862496 pri 005 started
+000006: 00000094 us: RealtimeThread-23860144 pri 002 started
+000007: 00000100 us: RealtimeThread-23859360 pri 001 started
+000008: 00002271 us: RealtimeThread-23864848 pri 008 awake
+000009: 00002333 us: RealtimeThread-23864064 pri 007 awake
+000010: 00002376 us: RealtimeThread-23863280 pri 006 awake
+000011: 00002435 us: RealtimeThread-23862496 pri 005 awake
+000012: 00002485 us: RealtimeThread-23861712 pri 004 awake
+000013: 00002492 us: RealtimeThread-23860928 pri 003 awake
+000014: 00002500 us: RealtimeThread-23860144 pri 002 awake
+000015: 00002553 us: RealtimeThread-23859360 pri 001 awake
+
+-----------------------
+Priority Ordered Wakeup
+-----------------------
+Worker Threads: 8
+Calling pthread_cond_broadcast() with mutex: LOCKED
+
+00002209 us: Master thread about to wake the workers
+
+Criteria: Threads should be woken up in priority order
+Result: PASS
+
+Thu May 16 11:41:39 CEST 2019
+The prio-wake test appears to have completed.

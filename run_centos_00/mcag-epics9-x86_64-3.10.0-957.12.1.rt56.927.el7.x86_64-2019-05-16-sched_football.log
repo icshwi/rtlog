@@ -1,0 +1,14 @@
+--- Running testcase sched_football  ---
+Thu May 16 11:41:46 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-sched_football.log
+Running with: players_per_team=8 game_length=5
+Starting 8 offense threads at priority 15
+Starting 8 defense threads at priority 30
+Starting referee thread
+Game On (5 seconds)!
+Game Over!
+Final ball position: 0
+Result: PASS
+
+Thu May 16 11:41:51 CEST 2019
+The sched_football test appears to have completed.

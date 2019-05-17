@@ -1,0 +1,26 @@
+--- Running testcase periodic_cpu_load_single  ---
+Thu May 16 11:39:15 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-periodic_cpu_load_single.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 10000 iterations
+priority: 90
+  period: 5 ms
+   loops: 1000
+    logs: pcl*
+  Execution Time Statistics:
+Min: 289 us
+Max: 422 us
+Avg: 305.5192 us
+StdDev: 15.9841 us
+Quantiles:
+99.0% < 336
+99.9% < 338
+99.99% < 422
+Criteria: no missed periods
+Result: PASS
+
+Thu May 16 11:40:05 CEST 2019
+The periodic_cpu_load_single test appears to have completed.

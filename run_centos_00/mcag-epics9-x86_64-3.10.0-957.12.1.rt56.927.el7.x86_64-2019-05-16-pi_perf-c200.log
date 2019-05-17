@@ -1,0 +1,25 @@
+--- Running testcase pi_perf -c 200  ---
+Thu May 16 11:41:37 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-pi_perf-c200.log
+Low prio thread started
+High prio thread started
+Busy 0 started
+Busy 1 started
+Busy 2 started
+Busy 3 started
+Busy 4 started
+Busy 5 started
+Busy 6 started
+Busy 7 started
+Time taken for high prio thread to get the lock once released by low prio thread
+Min delay = 4 us
+Max delay = 6372 us
+Average delay = 888.60 us
+Standard Deviation = 2186.80 us
+Quantiles:
+99.0% < 6372
+Criteria: High prio lock wait time < (Low prio lock held time + 200 us)
+Result: FAIL
+
+Thu May 16 11:41:39 CEST 2019
+The pi_perf test appears to have completed.

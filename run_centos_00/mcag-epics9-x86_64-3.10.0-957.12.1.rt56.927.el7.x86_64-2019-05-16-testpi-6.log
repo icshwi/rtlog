@@ -1,0 +1,7 @@
+--- Running testcase testpi-6  ---
+Thu May 16 11:41:37 CEST 2019
+Logging to /home/iocuser/projects/e3-tools/rt_conf/ltp/testcases/realtime/logs/mcag-epics9-x86_64-3.10.0-957.12.1.rt56.927.el7.x86_64-2019-05-16-testpi-6.log
+Your system doesn't have robust pthread mutex support
+
+Thu May 16 11:41:37 CEST 2019
+The testpi-6 test appears to have completed.
