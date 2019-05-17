@@ -1,0 +1,23 @@
+--- Running testcase gtod_latency  ---
+Thu May 16 11:32:40 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-gtod_latency.log
+
+----------------------
+Gettimeofday() Latency
+----------------------
+Iterations: 10000000
+
+Min: 34 ns
+Max: 10571 ns
+Avg: 44.8036 ns
+StdDev: 26.6632 ns
+Quantiles:
+99.0% < 53
+99.9% < 55
+99.99% < 140
+99.999% < 6150
+99.9999% < 8485
+99.99999% < 10571
+
+Thu May 16 11:32:48 CEST 2019
+The gtod_latency test appears to have completed.

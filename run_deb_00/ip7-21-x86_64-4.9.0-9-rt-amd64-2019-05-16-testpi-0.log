@@ -1,0 +1,9 @@
+--- Running testcase testpi-0  ---
+Thu May 16 11:31:05 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-testpi-0.log
+LIBC_VERSION: glibc 2.24
+LIBPTHREAD_VERSION: NPTL 2.24
+Prio inheritance support present
+
+Thu May 16 11:31:05 CEST 2019
+The testpi-0 test appears to have completed.

@@ -1,0 +1,25 @@
+--- Running testcase prio-wake  ---
+Thu May 16 11:36:34 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-prio-wake.log
+000000: 00000071 us: RealtimeThread--1462013776 pri 001 started
+000001: 00000120 us: RealtimeThread--1462013280 pri 002 started
+000002: 00000168 us: RealtimeThread--1462012784 pri 003 started
+000003: 00000204 us: RealtimeThread--1462012288 pri 004 started
+000004: 00001281 us: RealtimeThread--1462012288 pri 004 awake
+000005: 00001295 us: RealtimeThread--1462012784 pri 003 awake
+000006: 00001309 us: RealtimeThread--1462013280 pri 002 awake
+000007: 00001321 us: RealtimeThread--1462013776 pri 001 awake
+
+-----------------------
+Priority Ordered Wakeup
+-----------------------
+Worker Threads: 4
+Calling pthread_cond_broadcast() with mutex: LOCKED
+
+00001260 us: Master thread about to wake the workers
+
+Criteria: Threads should be woken up in priority order
+Result: PASS
+
+Thu May 16 11:36:34 CEST 2019
+The prio-wake test appears to have completed.

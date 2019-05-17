@@ -1,0 +1,14 @@
+--- Running testcase sched_football  ---
+Thu May 16 11:14:04 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-sched_football.log
+Running with: players_per_team=4 game_length=5
+Starting 4 offense threads at priority 15
+Starting 4 defense threads at priority 30
+Starting referee thread
+Game On (5 seconds)!
+Game Over!
+Final ball position: 0
+Result: PASS
+
+Thu May 16 11:14:09 CEST 2019
+The sched_football test appears to have completed.

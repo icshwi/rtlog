@@ -1,0 +1,257 @@
+--- Running testcase testpi-1  ---
+Thu May 16 11:31:05 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-testpi-1.log
+Start ./testpi-1
+Thread 1454 started running with prio 20
+Thread 1455 started running with prio 30
+Thread 1456 started running with prio 40
+Noise Thread 1457 started running with prio 40
+Joining threads
+Thread 1453 started running with priority 0
+Thread 1453 at start pthread pol 0 pri 0 - Got global lock
+Noise Thread 1457 loop 0 pthread pol 2 pri 40
+Thread 1453 loop 0 pthread pol 0 pri 0
+Thread 1453 loop 100 pthread pol 0 pri 0
+Thread 1453 loop 200 pthread pol 0 pri 0
+Thread 1453 loop 300 pthread pol 0 pri 0
+Thread 1453 loop 400 pthread pol 0 pri 0
+Thread 1453 loop 500 pthread pol 0 pri 0
+Thread 1453 loop 600 pthread pol 0 pri 0
+Thread 1453 loop 700 pthread pol 0 pri 0
+Thread 1453 loop 800 pthread pol 0 pri 0
+Thread 1453 loop 900 pthread pol 0 pri 0
+Thread 1453 loop 1000 pthread pol 0 pri 0
+Thread 1453 loop 1100 pthread pol 0 pri 0
+Thread 1453 loop 1200 pthread pol 0 pri 0
+Thread 1453 loop 1300 pthread pol 0 pri 0
+Thread 1453 loop 1400 pthread pol 0 pri 0
+Thread 1453 loop 1500 pthread pol 0 pri 0
+Thread 1453 loop 1600 pthread pol 0 pri 0
+Thread 1453 loop 1700 pthread pol 0 pri 0
+Thread 1453 loop 1800 pthread pol 0 pri 0
+Thread 1453 loop 1900 pthread pol 0 pri 0
+Thread 1453 loop 2000 pthread pol 0 pri 0
+Thread 1453 loop 2100 pthread pol 0 pri 0
+Thread 1453 loop 2200 pthread pol 0 pri 0
+Thread 1453 loop 2300 pthread pol 0 pri 0
+Thread 1453 loop 2400 pthread pol 0 pri 0
+Thread 1453 loop 2500 pthread pol 0 pri 0
+Thread 1453 loop 2600 pthread pol 0 pri 0
+Thread 1453 loop 2700 pthread pol 0 pri 0
+Thread 1453 loop 2800 pthread pol 0 pri 0
+Thread 1453 loop 2900 pthread pol 0 pri 0
+Thread 1453 loop 3000 pthread pol 0 pri 0
+Thread 1453 loop 3100 pthread pol 0 pri 0
+Thread 1453 loop 3200 pthread pol 0 pri 0
+Thread 1453 loop 3300 pthread pol 0 pri 0
+Thread 1453 loop 3400 pthread pol 0 pri 0
+Thread 1453 loop 3500 pthread pol 0 pri 0
+Thread 1453 loop 3600 pthread pol 0 pri 0
+Thread 1453 loop 3700 pthread pol 0 pri 0
+Thread 1453 loop 3800 pthread pol 0 pri 0
+Thread 1453 loop 3900 pthread pol 0 pri 0
+Thread 1453 loop 4000 pthread pol 0 pri 0
+Thread 1453 loop 4100 pthread pol 0 pri 0
+Thread 1453 loop 4200 pthread pol 0 pri 0
+Thread 1453 loop 4300 pthread pol 0 pri 0
+Thread 1453 loop 4400 pthread pol 0 pri 0
+Thread 1453 loop 4500 pthread pol 0 pri 0
+Thread 1453 loop 4600 pthread pol 0 pri 0
+Thread 1453 loop 4700 pthread pol 0 pri 0
+Thread 1453 loop 4800 pthread pol 0 pri 0
+Thread 1453 loop 4900 pthread pol 0 pri 0
+Thread 1453 loop 5000 pthread pol 0 pri 0
+Thread 1453 loop 5100 pthread pol 0 pri 0
+Thread 1453 loop 5200 pthread pol 0 pri 0
+Thread 1453 loop 5300 pthread pol 0 pri 0
+Thread 1453 loop 5400 pthread pol 0 pri 0
+Thread 1453 loop 5500 pthread pol 0 pri 0
+Thread 1453 loop 5600 pthread pol 0 pri 0
+Thread 1453 loop 5700 pthread pol 0 pri 0
+Thread 1453 loop 5800 pthread pol 0 pri 0
+Thread 1453 loop 5900 pthread pol 0 pri 0
+Thread 1453 loop 6000 pthread pol 0 pri 0
+Thread 1453 loop 6100 pthread pol 0 pri 0
+Thread 1453 loop 6200 pthread pol 0 pri 0
+Thread 1453 loop 6300 pthread pol 0 pri 0
+Thread 1453 loop 6400 pthread pol 0 pri 0
+Thread 1453 loop 6500 pthread pol 0 pri 0
+Thread 1453 loop 6600 pthread pol 0 pri 0
+Thread 1453 loop 6700 pthread pol 0 pri 0
+Thread 1453 loop 6800 pthread pol 0 pri 0
+Thread 1453 loop 6900 pthread pol 0 pri 0
+Thread 1453 loop 7000 pthread pol 0 pri 0
+Thread 1453 loop 7100 pthread pol 0 pri 0
+Thread 1453 loop 7200 pthread pol 0 pri 0
+Thread 1453 loop 7300 pthread pol 0 pri 0
+Thread 1453 loop 7400 pthread pol 0 pri 0
+Thread 1453 loop 7500 pthread pol 0 pri 0
+Thread 1453 loop 7600 pthread pol 0 pri 0
+Thread 1453 loop 7700 pthread pol 0 pri 0
+Thread 1453 loop 7800 pthread pol 0 pri 0
+Thread 1453 loop 7900 pthread pol 0 pri 0
+Thread 1453 loop 8000 pthread pol 0 pri 0
+Thread 1453 loop 8100 pthread pol 0 pri 0
+Thread 1453 loop 8200 pthread pol 0 pri 0
+Thread 1453 loop 8300 pthread pol 0 pri 0
+Thread 1453 loop 8400 pthread pol 0 pri 0
+Thread 1453 loop 8500 pthread pol 0 pri 0
+Thread 1453 loop 8600 pthread pol 0 pri 0
+Thread 1453 loop 8700 pthread pol 0 pri 0
+Thread 1453 loop 8800 pthread pol 0 pri 0
+Thread 1453 loop 8900 pthread pol 0 pri 0
+Thread 1453 loop 9000 pthread pol 0 pri 0
+Thread 1453 loop 9100 pthread pol 0 pri 0
+Thread 1453 loop 9200 pthread pol 0 pri 0
+Thread 1453 loop 9300 pthread pol 0 pri 0
+Thread 1453 loop 9400 pthread pol 0 pri 0
+Thread 1453 loop 9500 pthread pol 0 pri 0
+Thread 1453 loop 9600 pthread pol 0 pri 0
+Thread 1453 loop 9700 pthread pol 0 pri 0
+Thread 1453 loop 9800 pthread pol 0 pri 0
+Thread 1453 loop 9900 pthread pol 0 pri 0
+Noise Thread 1457 loop 100 pthread pol 2 pri 40
+Thread 1456 at start pthread pol 2 pri 40 - Got global lock
+Thread 1456 loop 0 pthread pol 2 pri 40
+Noise Thread 1457 loop 200 pthread pol 2 pri 40
+Thread 1456 loop 100 pthread pol 2 pri 40
+Noise Thread 1457 loop 300 pthread pol 2 pri 40
+Thread 1456 loop 200 pthread pol 2 pri 40
+Noise Thread 1457 loop 400 pthread pol 2 pri 40
+Thread 1456 loop 300 pthread pol 2 pri 40
+Noise Thread 1457 loop 500 pthread pol 2 pri 40
+Thread 1456 loop 400 pthread pol 2 pri 40
+Noise Thread 1457 loop 600 pthread pol 2 pri 40
+Thread 1456 loop 500 pthread pol 2 pri 40
+Noise Thread 1457 loop 700 pthread pol 2 pri 40
+Thread 1456 loop 600 pthread pol 2 pri 40
+Noise Thread 1457 loop 800 pthread pol 2 pri 40
+Thread 1456 loop 700 pthread pol 2 pri 40
+Noise Thread 1457 loop 900 pthread pol 2 pri 40
+Thread 1456 loop 800 pthread pol 2 pri 40
+Noise Thread 1457 loop 1000 pthread pol 2 pri 40
+Thread 1456 loop 900 pthread pol 2 pri 40
+Noise Thread 1457 loop 1100 pthread pol 2 pri 40
+Noise Thread 1457 loop 1200 pthread pol 2 pri 40
+Noise Thread 1457 loop 1300 pthread pol 2 pri 40
+Noise Thread 1457 loop 1400 pthread pol 2 pri 40
+Noise Thread 1457 loop 1500 pthread pol 2 pri 40
+Noise Thread 1457 loop 1600 pthread pol 2 pri 40
+Noise Thread 1457 loop 1700 pthread pol 2 pri 40
+Noise Thread 1457 loop 1800 pthread pol 2 pri 40
+Noise Thread 1457 loop 1900 pthread pol 2 pri 40
+Noise Thread 1457 loop 2000 pthread pol 2 pri 40
+Noise Thread 1457 loop 2100 pthread pol 2 pri 40
+Noise Thread 1457 loop 2200 pthread pol 2 pri 40
+Noise Thread 1457 loop 2300 pthread pol 2 pri 40
+Noise Thread 1457 loop 2400 pthread pol 2 pri 40
+Noise Thread 1457 loop 2500 pthread pol 2 pri 40
+Noise Thread 1457 loop 2600 pthread pol 2 pri 40
+Noise Thread 1457 loop 2700 pthread pol 2 pri 40
+Noise Thread 1457 loop 2800 pthread pol 2 pri 40
+Noise Thread 1457 loop 2900 pthread pol 2 pri 40
+Noise Thread 1457 loop 3000 pthread pol 2 pri 40
+Noise Thread 1457 loop 3100 pthread pol 2 pri 40
+Noise Thread 1457 loop 3200 pthread pol 2 pri 40
+Noise Thread 1457 loop 3300 pthread pol 2 pri 40
+Noise Thread 1457 loop 3400 pthread pol 2 pri 40
+Noise Thread 1457 loop 3500 pthread pol 2 pri 40
+Noise Thread 1457 loop 3600 pthread pol 2 pri 40
+Noise Thread 1457 loop 3700 pthread pol 2 pri 40
+Noise Thread 1457 loop 3800 pthread pol 2 pri 40
+Noise Thread 1457 loop 3900 pthread pol 2 pri 40
+Noise Thread 1457 loop 4000 pthread pol 2 pri 40
+Noise Thread 1457 loop 4100 pthread pol 2 pri 40
+Noise Thread 1457 loop 4200 pthread pol 2 pri 40
+Noise Thread 1457 loop 4300 pthread pol 2 pri 40
+Noise Thread 1457 loop 4400 pthread pol 2 pri 40
+Noise Thread 1457 loop 4500 pthread pol 2 pri 40
+Noise Thread 1457 loop 4600 pthread pol 2 pri 40
+Noise Thread 1457 loop 4700 pthread pol 2 pri 40
+Noise Thread 1457 loop 4800 pthread pol 2 pri 40
+Noise Thread 1457 loop 4900 pthread pol 2 pri 40
+Noise Thread 1457 loop 5000 pthread pol 2 pri 40
+Noise Thread 1457 loop 5100 pthread pol 2 pri 40
+Noise Thread 1457 loop 5200 pthread pol 2 pri 40
+Noise Thread 1457 loop 5300 pthread pol 2 pri 40
+Noise Thread 1457 loop 5400 pthread pol 2 pri 40
+Noise Thread 1457 loop 5500 pthread pol 2 pri 40
+Noise Thread 1457 loop 5600 pthread pol 2 pri 40
+Noise Thread 1457 loop 5700 pthread pol 2 pri 40
+Noise Thread 1457 loop 5800 pthread pol 2 pri 40
+Noise Thread 1457 loop 5900 pthread pol 2 pri 40
+Noise Thread 1457 loop 6000 pthread pol 2 pri 40
+Noise Thread 1457 loop 6100 pthread pol 2 pri 40
+Noise Thread 1457 loop 6200 pthread pol 2 pri 40
+Noise Thread 1457 loop 6300 pthread pol 2 pri 40
+Noise Thread 1457 loop 6400 pthread pol 2 pri 40
+Noise Thread 1457 loop 6500 pthread pol 2 pri 40
+Noise Thread 1457 loop 6600 pthread pol 2 pri 40
+Noise Thread 1457 loop 6700 pthread pol 2 pri 40
+Noise Thread 1457 loop 6800 pthread pol 2 pri 40
+Noise Thread 1457 loop 6900 pthread pol 2 pri 40
+Noise Thread 1457 loop 7000 pthread pol 2 pri 40
+Noise Thread 1457 loop 7100 pthread pol 2 pri 40
+Noise Thread 1457 loop 7200 pthread pol 2 pri 40
+Noise Thread 1457 loop 7300 pthread pol 2 pri 40
+Noise Thread 1457 loop 7400 pthread pol 2 pri 40
+Noise Thread 1457 loop 7500 pthread pol 2 pri 40
+Noise Thread 1457 loop 7600 pthread pol 2 pri 40
+Noise Thread 1457 loop 7700 pthread pol 2 pri 40
+Noise Thread 1457 loop 7800 pthread pol 2 pri 40
+Noise Thread 1457 loop 7900 pthread pol 2 pri 40
+Noise Thread 1457 loop 8000 pthread pol 2 pri 40
+Noise Thread 1457 loop 8100 pthread pol 2 pri 40
+Noise Thread 1457 loop 8200 pthread pol 2 pri 40
+Noise Thread 1457 loop 8300 pthread pol 2 pri 40
+Noise Thread 1457 loop 8400 pthread pol 2 pri 40
+Noise Thread 1457 loop 8500 pthread pol 2 pri 40
+Noise Thread 1457 loop 8600 pthread pol 2 pri 40
+Noise Thread 1457 loop 8700 pthread pol 2 pri 40
+Noise Thread 1457 loop 8800 pthread pol 2 pri 40
+Noise Thread 1457 loop 8900 pthread pol 2 pri 40
+Noise Thread 1457 loop 9000 pthread pol 2 pri 40
+Noise Thread 1457 loop 9100 pthread pol 2 pri 40
+Noise Thread 1457 loop 9200 pthread pol 2 pri 40
+Noise Thread 1457 loop 9300 pthread pol 2 pri 40
+Noise Thread 1457 loop 9400 pthread pol 2 pri 40
+Noise Thread 1457 loop 9500 pthread pol 2 pri 40
+Noise Thread 1457 loop 9600 pthread pol 2 pri 40
+Noise Thread 1457 loop 9700 pthread pol 2 pri 40
+Noise Thread 1457 loop 9800 pthread pol 2 pri 40
+Noise Thread 1457 loop 9900 pthread pol 2 pri 40
+Thread 1455 at start pthread pol 2 pri 30 - Got global lock
+Thread 1455 loop 0 pthread pol 2 pri 30
+Thread 1455 loop 100 pthread pol 2 pri 30
+Thread 1455 loop 200 pthread pol 2 pri 30
+Thread 1455 loop 300 pthread pol 2 pri 30
+Thread 1455 loop 400 pthread pol 2 pri 30
+Thread 1455 loop 500 pthread pol 2 pri 30
+Thread 1455 loop 600 pthread pol 2 pri 30
+Thread 1455 loop 700 pthread pol 2 pri 30
+Thread 1455 loop 800 pthread pol 2 pri 30
+Thread 1455 loop 900 pthread pol 2 pri 30
+Thread 1454 at start pthread pol 2 pri 20 - Got global lock
+Thread 1454 loop 0 pthread pol 2 pri 20
+Thread 1454 loop 100 pthread pol 2 pri 20
+Thread 1454 loop 200 pthread pol 2 pri 20
+Thread 1454 loop 300 pthread pol 2 pri 20
+Thread 1454 loop 400 pthread pol 2 pri 20
+Thread 1454 loop 500 pthread pol 2 pri 20
+Thread 1454 loop 600 pthread pol 2 pri 20
+Thread 1454 loop 700 pthread pol 2 pri 20
+Thread 1454 loop 800 pthread pol 2 pri 20
+Thread 1454 loop 900 pthread pol 2 pri 20
+Done
+Criteria:Low Priority Thread should Preempt Higher Priority Noise Thread
+
+Thu May 16 11:31:29 CEST 2019
+The testpi-1 test appears to have completed.
+Traceback (most recent call last):
+  File "parse-testpi1.py", line 30, in <module>
+    from scripts.parser import *
+  File "/home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/scripts/parser.py", line 32, in <module>
+    class Log:
+  File "/home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/scripts/parser.py", line 37, in Log
+    self.__log_file = open(log_file, "r")
+NameError: name 'log_file' is not defined

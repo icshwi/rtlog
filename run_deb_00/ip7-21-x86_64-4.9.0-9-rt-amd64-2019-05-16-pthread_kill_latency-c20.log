@@ -1,0 +1,24 @@
+--- Running testcase pthread_kill_latency -c 20  ---
+Thu May 16 11:32:48 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-pthread_kill_latency-c20.log
+-------------------------------
+pthread_kill Latency
+-------------------------------
+
+Iterations: 10000
+
+Min: 4 us
+Max: 26 us
+Avg: 8.5305 us
+StdDev: 1.4698 us
+Quantiles:
+99.0% < 12
+99.9% < 19
+99.99% < 26
+Failures: 7
+Criteria: Time < 20 us
+Result: FAIL
+
+
+Thu May 16 11:32:52 CEST 2019
+The pthread_kill_latency test appears to have completed.

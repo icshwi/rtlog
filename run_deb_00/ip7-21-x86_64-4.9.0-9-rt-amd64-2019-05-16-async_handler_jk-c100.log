@@ -1,0 +1,10 @@
+--- Running testcase async_handler_jk -c 100  ---
+Thu May 16 11:37:12 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-async_handler_jk-c100.log
+delta = 19 us
+
+Criteria: latencies < 100
+Result: PASS
+
+Thu May 16 11:37:12 CEST 2019
+The async_handler_jk test appears to have completed.

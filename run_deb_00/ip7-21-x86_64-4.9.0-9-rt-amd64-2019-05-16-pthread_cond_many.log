@@ -1,0 +1,7 @@
+Logging to: 
+/home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-pthread_cond_many.log 
+and to local individual .out files 
+pthread_cond_many configuration:
+number of threads = 5000 
+number of iterations = 400 
+number of processes = 5 

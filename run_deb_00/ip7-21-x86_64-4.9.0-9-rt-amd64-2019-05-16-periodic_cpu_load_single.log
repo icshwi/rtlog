@@ -1,0 +1,26 @@
+--- Running testcase periodic_cpu_load_single  ---
+Thu May 16 11:30:09 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-periodic_cpu_load_single.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 10000 iterations
+priority: 90
+  period: 5 ms
+   loops: 1000
+    logs: pcl*
+  Execution Time Statistics:
+Min: 997 us
+Max: 1228 us
+Avg: 1056.5520 us
+StdDev: 48.1765 us
+Quantiles:
+99.0% < 1189
+99.9% < 1228
+99.99% < 1228
+Criteria: no missed periods
+Result: PASS
+
+Thu May 16 11:30:59 CEST 2019
+The periodic_cpu_load_single test appears to have completed.

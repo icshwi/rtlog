@@ -1,0 +1,35 @@
+--- Running testcase matrix_mult -c 0.75  ---
+Thu May 16 11:32:48 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-matrix_mult-c0.75.log
+
+---------------------------------------
+Matrix Multiplication (SMP Performance)
+---------------------------------------
+
+Running 128 iterations
+Matrix Dimensions: 100x100
+Calculations per iteration: 8
+Number of CPUs: 4
+
+Running sequential operations
+Min: 0 us
+Max: 0 us
+Avg: 0.0000 us
+StdDev: 0.0000 us
+
+Running concurrent operations
+Min: 0 us
+Max: 0 us
+Avg: 0.0000 us
+StdDev: 0.0000 us
+
+Concurrent Multipliers:
+Min: -nan
+Max: -nan
+Avg: -nan
+
+Criteria: 3.00 * average concurrent time < average sequential time
+Result: FAIL
+
+Thu May 16 11:32:48 CEST 2019
+The matrix_mult test appears to have completed.

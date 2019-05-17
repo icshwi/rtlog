@@ -1,0 +1,7 @@
+--- Running testcase sbrk_mutex  ---
+Thu May 16 11:32:35 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/ip7-21-x86_64-4.9.0-9-rt-amd64-2019-05-16-sbrk_mutex.log
+Your system doesn't support the pthread robust mutexattr APIs
+
+Thu May 16 11:32:35 CEST 2019
+The sbrk_mutex test appears to have completed.
