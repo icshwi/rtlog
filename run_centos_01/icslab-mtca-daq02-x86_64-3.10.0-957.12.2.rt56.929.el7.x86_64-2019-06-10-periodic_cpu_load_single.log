@@ -1,0 +1,30 @@
+--- Running testcase periodic_cpu_load_single  ---
+Mon Jun 10 12:05:38 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-periodic_cpu_load_single.log
+sched_setscheduler: Operation not permitted
+--- Running testcase periodic_cpu_load_single  ---
+Mon Jun 10 13:53:29 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-periodic_cpu_load_single.log
+------------------------------------
+Periodic CPU Load Execution Variance
+------------------------------------
+
+Running 10000 iterations
+priority: 90
+  period: 5 ms
+   loops: 1000
+    logs: pcl*
+  Execution Time Statistics:
+Min: 372 us
+Max: 570 us
+Avg: 440.7541 us
+StdDev: 8.0893 us
+Quantiles:
+99.0% < 466
+99.9% < 509
+99.99% < 570
+Criteria: no missed periods
+Result: PASS
+
+Mon Jun 10 13:54:19 CEST 2019
+The periodic_cpu_load_single test appears to have completed.

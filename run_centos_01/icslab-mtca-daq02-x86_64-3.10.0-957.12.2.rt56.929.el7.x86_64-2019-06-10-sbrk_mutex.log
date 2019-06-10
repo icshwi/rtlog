@@ -1,0 +1,7 @@
+--- Running testcase sbrk_mutex  ---
+Mon Jun 10 13:55:44 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-sbrk_mutex.log
+Your system doesn't support the pthread robust mutexattr APIs
+
+Mon Jun 10 13:55:44 CEST 2019
+The sbrk_mutex test appears to have completed.

@@ -1,0 +1,29 @@
+--- Running testcase prio-preempt -c 1  ---
+Mon Jun 10 13:55:46 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-prio-preempt-c1.log
+Maximum busy thread count(4), should not exceed number of cpus(4)
+Using 4
+
+-------------------
+Priority Preemption
+-------------------
+
+Busy Threads: 4
+Interrupter Threads: Disabled
+Worker Threads: 27
+
+Busy Thread 4(81): Running...
+Busy Thread 3(81): Running...
+Busy Thread 2(81): Running...
+Busy threads created!
+Worker threads created
+Signaling first thread
+Busy Thread 2(81): Exiting
+Busy Thread 3(81): Exiting
+Busy Thread 4(81): Exiting
+
+Criteria: All threads appropriately preempted within 1 loop(s)
+Result: PASS
+
+Mon Jun 10 13:55:46 CEST 2019
+The prio-preempt test appears to have completed.

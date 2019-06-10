@@ -1,0 +1,19 @@
+--- Running testcase tc-2 -c 0.5  ---
+Mon Jun 10 13:58:37 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-tc-2-c0.5.log
+
+5 sleeper threads created
+
+2 worker threads created
+
+Please wait...
+
+Process: 0.0038 s
+Threads: 0.0003 s
+Delta:   0.0035 s
+
+Criteria: Delta < 0.5000 s
+Result: PASS
+
+Mon Jun 10 13:58:42 CEST 2019
+The tc-2 test appears to have completed.

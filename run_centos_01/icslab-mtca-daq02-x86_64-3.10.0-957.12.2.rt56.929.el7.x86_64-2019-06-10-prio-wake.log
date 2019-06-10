@@ -1,0 +1,25 @@
+--- Running testcase prio-wake  ---
+Mon Jun 10 13:55:47 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-prio-wake.log
+000000: 00000063 us: RealtimeThread-29479072 pri 001 started
+000001: 00000101 us: RealtimeThread-29479856 pri 002 started
+000002: 00000127 us: RealtimeThread-29480640 pri 003 started
+000003: 00000151 us: RealtimeThread-29481424 pri 004 started
+000004: 00001259 us: RealtimeThread-29481424 pri 004 awake
+000005: 00001297 us: RealtimeThread-29480640 pri 003 awake
+000006: 00001310 us: RealtimeThread-29479856 pri 002 awake
+000007: 00001319 us: RealtimeThread-29479072 pri 001 awake
+
+-----------------------
+Priority Ordered Wakeup
+-----------------------
+Worker Threads: 4
+Calling pthread_cond_broadcast() with mutex: LOCKED
+
+00001190 us: Master thread about to wake the workers
+
+Criteria: Threads should be woken up in priority order
+Result: PASS
+
+Mon Jun 10 13:55:47 CEST 2019
+The prio-wake test appears to have completed.

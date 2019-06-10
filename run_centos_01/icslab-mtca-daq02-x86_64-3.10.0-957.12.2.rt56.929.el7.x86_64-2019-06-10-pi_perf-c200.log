@@ -1,0 +1,21 @@
+--- Running testcase pi_perf -c 200  ---
+Mon Jun 10 13:55:45 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-pi_perf-c200.log
+Low prio thread started
+High prio thread started
+Busy 0 started
+Busy 1 started
+Busy 2 started
+Busy 3 started
+Time taken for high prio thread to get the lock once released by low prio thread
+Min delay = 6 us
+Max delay = 5606 us
+Average delay = 912.09 us
+Standard Deviation = 1976.56 us
+Quantiles:
+99.0% < 5606
+Criteria: High prio lock wait time < (Low prio lock held time + 200 us)
+Result: FAIL
+
+Mon Jun 10 13:55:46 CEST 2019
+The pi_perf test appears to have completed.

@@ -1,0 +1,28 @@
+--- Running testcase sched_latency -d 1 -t 5 -c 100  ---
+Mon Jun 10 13:57:47 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-sched_latency-d1-t5-c100.log
+-------------------------------
+Scheduling Latency
+-------------------------------
+
+Running 10000 iterations with a period of 5 ms
+Periodic load duration: 1 ms
+Expected running time: 50 s
+
+
+Start:   63 us: PASS
+Min:     11 us: PASS
+Max:     93 us: PASS
+Avg:     66 us: PASS
+StdDev: 6.2479 us
+Quantiles:
+99.0% < 74
+99.9% < 86
+99.99% < 93
+Failed Iterations: 0
+
+Criteria: latencies < 100 us
+Result: PASS
+
+Mon Jun 10 13:58:37 CEST 2019
+The sched_latency test appears to have completed.

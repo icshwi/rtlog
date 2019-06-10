@@ -1,0 +1,60 @@
+--- Running testcase matrix_mult -c 0.75  ---
+Mon Jun 10 12:05:38 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-matrix_mult-c0.75.log
+sched_setscheduler: Operation not permitted
+sched_setscheduler: Operation not permitted
+
+---------------------------------------
+Matrix Multiplication (SMP Performance)
+---------------------------------------
+
+Running 128 iterations
+Matrix Dimensions: 100x100
+Calculations per iteration: 8
+Number of CPUs: 4
+
+Running sequential operations
+Min: 155 us
+Max: 223 us
+Avg: 162.0000 us
+StdDev: 12.5974 us
+pthread_create failed: 1 (Operation not permitted)
+Thread creation failed (max threads exceeded?)
+
+Mon Jun 10 12:05:38 CEST 2019
+The matrix_mult test appears to have completed.
+--- Running testcase matrix_mult -c 0.75  ---
+Mon Jun 10 13:37:29 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-matrix_mult-c0.75.log
+
+---------------------------------------
+Matrix Multiplication (SMP Performance)
+---------------------------------------
+
+Running 128 iterations
+Matrix Dimensions: 100x100
+Calculations per iteration: 8
+Number of CPUs: 4
+
+Running sequential operations
+Min: 155 us
+Max: 229 us
+Avg: 160.0000 us
+StdDev: 10.7483 us
+
+Running concurrent operations
+Min: 327 us
+Max: 420 us
+Avg: 83.0000 us
+StdDev: 15.6183 us
+
+Concurrent Multipliers:
+Min: 0.4740
+Max: 0.5452
+Avg: 1.9277
+
+Criteria: 3.00 * average concurrent time < average sequential time
+Result: FAIL
+
+Mon Jun 10 13:37:29 CEST 2019
+The matrix_mult test appears to have completed.

@@ -1,0 +1,31 @@
+--- Running testcase gtod_latency  ---
+Mon Jun 10 12:05:38 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-gtod_latency.log
+This program runs with a scheduling policy of SCHED_FIFO at priority 99
+You don't have the necessary privileges to create such a real-time process.
+
+Mon Jun 10 12:05:38 CEST 2019
+The gtod_latency test appears to have completed.
+--- Running testcase gtod_latency  ---
+Mon Jun 10 13:37:26 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-gtod_latency.log
+
+----------------------
+Gettimeofday() Latency
+----------------------
+Iterations: 10000000
+
+Min: 15 ns
+Max: 25158 ns
+Avg: 19.5179 ns
+StdDev: 106.3757 ns
+Quantiles:
+99.0% < 70
+99.9% < 100
+99.99% < 8256
+99.999% < 10789
+99.9999% < 18676
+99.99999% < 25158
+
+Mon Jun 10 13:37:29 CEST 2019
+The gtod_latency test appears to have completed.

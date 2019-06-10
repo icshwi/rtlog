@@ -1,0 +1,17 @@
+--- Running testcase async_handler_jk -c 100  ---
+Mon Jun 10 12:05:38 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-async_handler_jk-c100.log
+/home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/scripts/run_c_files.sh: line 51:  5061 Segmentation fault      (core dumped) ./async_handler_jk -c 100
+
+Mon Jun 10 12:05:38 CEST 2019
+The async_handler_jk test appears to have completed.
+--- Running testcase async_handler_jk -c 100  ---
+Mon Jun 10 13:37:26 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-async_handler_jk-c100.log
+delta = 23 us
+
+Criteria: latencies < 100
+Result: PASS
+
+Mon Jun 10 13:37:26 CEST 2019
+The async_handler_jk test appears to have completed.

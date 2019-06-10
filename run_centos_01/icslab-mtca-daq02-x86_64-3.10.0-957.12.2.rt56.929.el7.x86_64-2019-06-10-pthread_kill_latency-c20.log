@@ -1,0 +1,24 @@
+--- Running testcase pthread_kill_latency -c 20  ---
+Mon Jun 10 13:55:47 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-pthread_kill_latency-c20.log
+-------------------------------
+pthread_kill Latency
+-------------------------------
+
+Iterations: 10000
+
+Min: 4 us
+Max: 104 us
+Avg: 6.7788 us
+StdDev: 5.7272 us
+Quantiles:
+99.0% < 30
+99.9% < 75
+99.99% < 104
+Failures: 140
+Criteria: Time < 20 us
+Result: FAIL
+
+
+Mon Jun 10 13:55:49 CEST 2019
+The pthread_kill_latency test appears to have completed.

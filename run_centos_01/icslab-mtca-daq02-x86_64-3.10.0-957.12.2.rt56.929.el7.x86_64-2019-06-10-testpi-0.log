@@ -1,0 +1,18 @@
+--- Running testcase testpi-0  ---
+Mon Jun 10 12:05:47 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-testpi-0.log
+LIBC_VERSION: glibc 2.17
+LIBPTHREAD_VERSION: NPTL 2.17
+Prio inheritance support present
+
+Mon Jun 10 12:05:47 CEST 2019
+The testpi-0 test appears to have completed.
+--- Running testcase testpi-0  ---
+Mon Jun 10 13:54:19 CEST 2019
+Logging to /home/iocuser/ics_gitsrc/e3-tools/rt_conf/ltp/testcases/realtime/logs/icslab-mtca-daq02-x86_64-3.10.0-957.12.2.rt56.929.el7.x86_64-2019-06-10-testpi-0.log
+LIBC_VERSION: glibc 2.17
+LIBPTHREAD_VERSION: NPTL 2.17
+Prio inheritance support present
+
+Mon Jun 10 13:54:19 CEST 2019
+The testpi-0 test appears to have completed.
